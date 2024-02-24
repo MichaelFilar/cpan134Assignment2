@@ -1,0 +1,123 @@
+html {
+    background-color: lightcyan;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+
+h1,h2 {
+    font-size: 200%;
+    color:rgb(0, 156, 177)
+}
+
+/* table section*/
+
+table,th,td {
+    border: 2px solid;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+th,td {
+    padding: 3px 4px;
+    border: 0px;
+    border-right: 1px black solid;
+    border-bottom: 1px black solid;
+}
+
+table.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#intro {
+    font-size: 20px;
+}
+
+/* class for page navigation bar section*/
+
+table.nav {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 130%;
+    border-collapse: separate;
+    border: 0px;
+    border-spacing: 0;
+    padding: 0;
+}
+
+table.nav a {
+    color: black;
+}
+
+table.nav th,td {
+    padding: 12px 20px 10px 20px;
+    border: 0px;
+    border-right: 1px gray solid;
+    border-bottom: 1px gray solid;
+}
+
+table.nav th {
+    text-wrap: nowrap;
+    background-color: rgb(39, 180, 202);
+    border-top: 1px gray solid
+}
+
+table.nav td:first-child {
+    border-left:  1px gray solid;
+}
+
+table.nav th:first-child {
+    border-left:  1px gray solid;
+}
+
+table.nav th:first-child {
+    border-top-left-radius: 10px;
+}
+
+table.nav th:last-child {
+    border-top-right-radius: 10px;
+}
+
+
+/* list section*/
+ul.ulCenter {
+    display: inline-block;
+    text-align: left;
+}
+
+ul {
+    font-size: 120%;
+}
+
+div.listDiv p {
+    font-size: 120%;
+}
+
+/*form section*/
+
+form {
+    font-size: 130%;
+}
+
+div.boxModel form {
+    border: 2px black solid;
+    margin-top: 1%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+div.boxModel input {
+    font-size: 115%;
+}
+
+div.boxModel p {
+    margin-left: 30%;
+    margin-right: 30%;
+    border: 1pt rgb(161, 161, 161) solid;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
